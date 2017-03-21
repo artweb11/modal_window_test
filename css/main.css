@@ -37,6 +37,9 @@ html, body {
 	 outline: none;
 }
 .modal {
+	display: none;
+	opacity: 0;
+	
 	position: fixed;
 	max-width: 960px;
 	width: 100%;
@@ -45,6 +48,10 @@ html, body {
 	height: auto;
 
 	font-family: Arial;
+	transition: opacity 0.3s ease 0s;
+}
+.modal.opened {
+	opacity: 1;
 }
 .modal .modal-content {
 	position: relative;
@@ -97,11 +104,11 @@ html, body {
 	position: relative;
 	width: 100%;
 	display: inline-block;
-	
+	margin-top: 10px;
 }
 .modal .input .input-component {
 	position: relative;	
-	padding: 5px 20px 5px 20px;
+	padding: 5px 10px 5px 10px;
 	/*border-radius: 20px;*/
 	border: solid 1px #e0e0e0;
 	background: #fff;
@@ -175,7 +182,7 @@ html, body {
 	width: 70%;
 }
 .modal .footer .buttons {
-	padding-top: 20px;
+	/*padding-top: 20px;*/
 	display: table-cell;
 	text-align: right;
 }
@@ -206,4 +213,23 @@ html, body {
 .modal .input .input-component.error {
 	background: #ffe0e0;
 	border-color: #ff6868;
+}
+.modal .input .input-component.success {
+	background: #c7fddd;
+	border-color: #68e8b5;
+}
+#brand-image {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.modal .col2 .input-component.color-chooser select {
+	width: 48%;
+}
+#color-visual {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 40px;
+	height: 40px;
 }

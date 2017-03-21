@@ -21,7 +21,7 @@
 
         <div class="modal" id="modal01">
         	<div class="modal-content">
-        		<form action="" method="post" enctype="application/www-urlencoded">
+        		<form action="" method="post" enctype="application/www-urlencoded" id="modal_form">
 	        		<div class="header">
 		        		<div class="modal-title">Add Product</div>
 		        		<div class="modal-subtitle">Second-hand Car</div>
@@ -45,6 +45,7 @@
 	        						
 	        					</select>
 	        				</div>
+	        				<div id="brand-image"></div>
 	        			</div>
 						
 						<div class="col2">
@@ -58,7 +59,7 @@
 
 		        			<div class="input">
 		        				<!-- <div class="error"></div> -->
-		        				<div class="input-component valid-number">
+		        				<div class="input-component valid-required valid-number">
 		        					<label for="input-mileage">Mileage</label>
 		        					<input type="text" name="input_mileage" id="input-mileage">
 		        				</div>
@@ -67,7 +68,7 @@
 						<div class="col2">
 							<div class="input">
 		        				<!-- <div class="error"></div> -->
-		        				<div class="input-component error valid-required">
+		        				<div class="input-component valid-required">
 		        					<label for="input-fuel-type">Fuel type</label>
 		        					<select name="input_fuel_type" id="input-fuel-type">
 		        						<option value="">Select</option>
@@ -85,9 +86,9 @@
 		        					<label for="input-color">Color</label>
 		        					<select name="input_color" id="input-color">
 		        						
-		        					</select>
-		        					<div class="color-visual"></div>
+		        					</select>		        					
 		        				</div>
+		        				<div id="color-visual"></div>
 		        			</div>
 						</div>
 	        		</div>
@@ -102,7 +103,7 @@
 	        			</div>
 						<div class="input hidden">
 	        				<!-- <div class="error"></div> -->
-	        				<div class="input-component error">
+	        				<div class="input-component">
 	        					<label for="input-damaged-details">Details</label>
 	        					<textarea name="input_damaged_details" id="input-damaged-details" cols="20" rows="10"></textarea>
 	        				</div>
@@ -110,7 +111,7 @@
 
 	        			<div class="input">
 	        				<!-- <div class="error"></div> -->
-	        				<div class="input-component valid-number">
+	        				<div class="input-component valid-required valid-number">
 	        					<label for="input-price">Price</label>
 	        					<input type="text" name="input_price" id="input-price">
 	        				</div>
@@ -120,6 +121,7 @@
 	        				<div class="input-component valid-required">
 	        					<label for="input-currency">Currency</label>
 	        					<select name="input_currency" id="input-currency">
+	        						<option value="">Select</option>
 	        						<option value="1">RON</option>
 	        						<option value="2">EURO</option>
 	        						<option value="3">DOLLARS</option>
@@ -139,14 +141,14 @@
 	        			<div class="errors"></div>
 	        			<div class="buttons">
 	        				<div class="btn cancel" id="cancel-btn">Cancel</div>
-	        				<input class="btn submit" disabled type="submit" value="Send">
+	        				<input class="btn submit" type="submit" disabled value="Send">
 	        			</div>
 	        		</div>
 	        	</form>
         	</div>
         </div>
 
-		<script src="brands.json"></script>
+		<script src=""></script>
         <script src="js/modal_window.js"></script>
     </body>
 </html>

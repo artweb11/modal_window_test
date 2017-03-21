@@ -1,0 +1,30 @@
+[
+	{
+        "colorName":"Red",
+        "hexValue":"#f00"
+    },
+    {
+        "colorName":"Green",
+        "hexValue":"#0f0"
+    },
+    {
+        "colorName":"Blue",
+        "hexValue":"#00f"
+    },
+    {
+        "colorName":"Cyan",
+        "hexValue":"#0ff"
+    },
+    {
+        "colorName":"Magenta",
+        "hexValue":"#f0f"
+    },
+    {
+        "colorName":"Yellow",
+        "hexValue":"#ff0"
+    },
+    {
+        "colorName":"Black",
+        "hexValue":"#000"
+    }
+]

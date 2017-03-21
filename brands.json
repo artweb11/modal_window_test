@@ -1,8 +1,45 @@
-var brands = [{"title":"volkswagen","img":"http://www.cars-data.com/design/images/cars-logo/volkswagen-logo-small.jpg"},{"title":"audi","img":"http://www.cars-data.com/design/images/cars-logo/audi-logo-small.jpg"},{"title":"bmw","img":"http://www.cars-data.com/design/images/cars-logo/bmw-logo-small.jpg"},{"title":"opel","img":"http://www.cars-data.com/design/images/cars-logo/opel-logo-small.jpg"},{"title":"aston","img":"http://www.cars-data.com/design/images/cars-logo/aston-martin-logo-small.jpg"},{"title":"audi","img":"http://www.cars-data.com/design/images/cars-logo/audi-logo-small.jpg"},{"title":"bentley","img":"http://www.cars-data.com/design/images/cars-logo/bentley-logo-small.jpg"},{"title":"bmw","img":"http://www.cars-data.com/design/images/cars-logo/bmw-logo-small.jpg"},{"title":"cadillac","img":"http://www.cars-data.com/design/images/cars-logo/cadillac-logo-small.jpg"},{"title":"chevrolet","img":"http://www.cars-data.com/design/images/cars-logo/chevrolet-logo-small.jpg"},{"title":"chrysler","img":"http://www.cars-data.com/design/images/cars-logo/chrysler-logo-small.jpg"},{"title":"dacia","img":"http://www.cars-data.com/design/images/cars-logo/dacia-logo-small.jpg"},{"title":"daewoo","img":"http://www.cars-data.com/design/images/cars-logo/daewoo-logo-small.jpg"},{"title":"dodge","img":"http://www.cars-data.com/design/images/cars-logo/dodge-logo-small.jpg"},{"title":"ferrari","img":"http://www.cars-data.com/design/images/cars-logo/ferrari-logo-small.jpg"},{"title":"fiat","img":"http://www.cars-data.com/design/images/cars-logo/fiat-logo-small.jpg"},{"title":"ford","img":"http://www.cars-data.com/design/images/cars-logo/ford-logo-small.jpg"},{"title":"honda","img":"http://www.cars-data.com/design/images/cars-logo/honda-logo-small.jpg"},{"title":"hummer","img":"http://www.cars-data.com/design/images/cars-logo/hummer-logo-small.jpg"},{"title":"hyundai","img":"http://www.cars-data.com/design/images/cars-logo/hyundai-logo-small.jpg"},{"title":"jaguar","img":"http://www.cars-data.com/design/images/cars-logo/jaguar-logo-small.jpg"},{"title":"jeep","img":"http://www.cars-data.com/design/images/cars-logo/jeep-logo-small.jpg"},{"title":"lamborghini","img":"http://www.cars-data.com/design/images/cars-logo/lamborghini-logo-small.jpg"},{"title":"lexus","img":"http://www.cars-data.com/design/images/cars-logo/lexus-logo-small.jpg"},{"title":"maserati","img":"http://www.cars-data.com/design/images/cars-logo/maserati-logo-small.jpg"},{"title":"mazda","img":"http://www.cars-data.com/design/images/cars-logo/mazda-logo-small.jpg"},{"title":"mini","img":"http://www.cars-data.com/design/images/cars-logo/mini-logo-small.jpg"},{"title":"mitsubishi","img":"http://www.cars-data.com/design/images/cars-logo/mitsubishi-logo-small.jpg"},{"title":"nissan","img":"http://www.cars-data.com/design/images/cars-logo/nissan-logo-small.jpg"},{"title":"opel","img":"http://www.cars-data.com/design/images/cars-logo/opel-logo-small.jpg"},{"title":"peugeot","img":"http://www.cars-data.com/design/images/cars-logo/peugeot-logo-small.jpg"},{"title":"porsche","img":"http://www.cars-data.com/design/images/cars-logo/porsche-logo-small.jpg"},{"title":"renault","img":"http://www.cars-data.com/design/images/cars-logo/renault-logo-small.jpg"},{"title":"rolls-royce","img":"http://www.cars-data.com/design/images/cars-logo/rolls-royce-logo-small.jpg"},{"title":"rover","img":"http://www.cars-data.com/design/images/cars-logo/land-rover-logo-small.jpg"},{"title":"rover","img":"http://www.cars-data.com/design/images/cars-logo/rover-logo-small.jpg"},{"title":"saab","img":"http://www.cars-data.com/design/images/cars-logo/saab-logo-small.jpg"},{"title":"seat","img":"http://www.cars-data.com/design/images/cars-logo/seat-logo-small.jpg"},{"title":"smart","img":"http://www.cars-data.com/design/images/cars-logo/smart-logo-small.jpg"},{"title":"subaru","img":"http://www.cars-data.com/design/images/cars-logo/subaru-logo-small.jpg"},{"title":"suzuki","img":"http://www.cars-data.com/design/images/cars-logo/suzuki-logo-small.jpg"},{"title":"tesla","img":"http://www.cars-data.com/design/images/cars-logo/tesla-logo-small.jpg"},{"title":"toyota","img":"http://www.cars-data.com/design/images/cars-logo/toyota-logo-small.jpg"},{"title":"volkswagen","img":"http://www.cars-data.com/design/images/cars-logo/volkswagen-logo-small.jpg"},{"title":"volvo","img":"http://www.cars-data.com/design/images/cars-logo/volvo-logo-small.jpg"}]
-
-/*buff = '';
-brands.forEach( function(el){
-	buff += '<div><img src="'+el.img+'" width="30" />'+el.title+'</div>';
-});*/
-
-//document.getElementById('res').innerHTML = buff;
+[{"title":"Volkswagen","img":"http://www.cars-data.com/design/images/cars-logo/volkswagen-logo-small.jpg"},
+	{"title":"Audi","img":"http://www.cars-data.com/design/images/cars-logo/audi-logo-small.jpg"},
+	{"title":"Bmw","img":"http://www.cars-data.com/design/images/cars-logo/bmw-logo-small.jpg"},
+	{"title":"Opel","img":"http://www.cars-data.com/design/images/cars-logo/opel-logo-small.jpg"},
+	{"title":"Aston","img":"http://www.cars-data.com/design/images/cars-logo/aston-martin-logo-small.jpg"},
+	{"title":"Audi","img":"http://www.cars-data.com/design/images/cars-logo/audi-logo-small.jpg"},
+	{"title":"Bentley","img":"http://www.cars-data.com/design/images/cars-logo/bentley-logo-small.jpg"},
+	{"title":"Bmw","img":"http://www.cars-data.com/design/images/cars-logo/bmw-logo-small.jpg"},
+	{"title":"Cadillac","img":"http://www.cars-data.com/design/images/cars-logo/cadillac-logo-small.jpg"},
+	{"title":"Chevrolet","img":"http://www.cars-data.com/design/images/cars-logo/chevrolet-logo-small.jpg"},
+	{"title":"Chrysler","img":"http://www.cars-data.com/design/images/cars-logo/chrysler-logo-small.jpg"},
+	{"title":"Dacia","img":"http://www.cars-data.com/design/images/cars-logo/dacia-logo-small.jpg"},
+	{"title":"Daewoo","img":"http://www.cars-data.com/design/images/cars-logo/daewoo-logo-small.jpg"},
+	{"title":"Dodge","img":"http://www.cars-data.com/design/images/cars-logo/dodge-logo-small.jpg"},
+	{"title":"Ferrari","img":"http://www.cars-data.com/design/images/cars-logo/ferrari-logo-small.jpg"},
+	{"title":"Fiat","img":"http://www.cars-data.com/design/images/cars-logo/fiat-logo-small.jpg"},
+	{"title":"Ford","img":"http://www.cars-data.com/design/images/cars-logo/ford-logo-small.jpg"},
+	{"title":"Honda","img":"http://www.cars-data.com/design/images/cars-logo/honda-logo-small.jpg"},
+	{"title":"Hummer","img":"http://www.cars-data.com/design/images/cars-logo/hummer-logo-small.jpg"},
+	{"title":"Hyundai","img":"http://www.cars-data.com/design/images/cars-logo/hyundai-logo-small.jpg"},
+	{"title":"Jaguar","img":"http://www.cars-data.com/design/images/cars-logo/jaguar-logo-small.jpg"},
+	{"title":"Jeep","img":"http://www.cars-data.com/design/images/cars-logo/jeep-logo-small.jpg"},
+	{"title":"Lamborghini","img":"http://www.cars-data.com/design/images/cars-logo/lamborghini-logo-small.jpg"},
+	{"title":"Lexus","img":"http://www.cars-data.com/design/images/cars-logo/lexus-logo-small.jpg"},
+	{"title":"Maserati","img":"http://www.cars-data.com/design/images/cars-logo/maserati-logo-small.jpg"},
+	{"title":"Mazda","img":"http://www.cars-data.com/design/images/cars-logo/mazda-logo-small.jpg"},
+	{"title":"Mini","img":"http://www.cars-data.com/design/images/cars-logo/mini-logo-small.jpg"},
+	{"title":"Mitsubishi","img":"http://www.cars-data.com/design/images/cars-logo/mitsubishi-logo-small.jpg"},
+	{"title":"Nissan","img":"http://www.cars-data.com/design/images/cars-logo/nissan-logo-small.jpg"},
+	{"title":"Opel","img":"http://www.cars-data.com/design/images/cars-logo/opel-logo-small.jpg"},
+	{"title":"Peugeot","img":"http://www.cars-data.com/design/images/cars-logo/peugeot-logo-small.jpg"},
+	{"title":"Porsche","img":"http://www.cars-data.com/design/images/cars-logo/porsche-logo-small.jpg"},
+	{"title":"Renault","img":"http://www.cars-data.com/design/images/cars-logo/renault-logo-small.jpg"},
+	{"title":"Rolls-royce","img":"http://www.cars-data.com/design/images/cars-logo/rolls-royce-logo-small.jpg"},
+	{"title":"Rover","img":"http://www.cars-data.com/design/images/cars-logo/land-rover-logo-small.jpg"},
+	{"title":"Rover","img":"http://www.cars-data.com/design/images/cars-logo/rover-logo-small.jpg"},
+	{"title":"Saab","img":"http://www.cars-data.com/design/images/cars-logo/saab-logo-small.jpg"},
+	{"title":"Seat","img":"http://www.cars-data.com/design/images/cars-logo/seat-logo-small.jpg"},
+	{"title":"Smart","img":"http://www.cars-data.com/design/images/cars-logo/smart-logo-small.jpg"},
+	{"title":"Subaru","img":"http://www.cars-data.com/design/images/cars-logo/subaru-logo-small.jpg"},
+	{"title":"Suzuki","img":"http://www.cars-data.com/design/images/cars-logo/suzuki-logo-small.jpg"},
+	{"title":"Tesla","img":"http://www.cars-data.com/design/images/cars-logo/tesla-logo-small.jpg"},
+	{"title":"Toyota","img":"http://www.cars-data.com/design/images/cars-logo/toyota-logo-small.jpg"},
+	{"title":"Volkswagen","img":"http://www.cars-data.com/design/images/cars-logo/volkswagen-logo-small.jpg"},
+	{"title":"Volvo","img":"http://www.cars-data.com/design/images/cars-logo/volvo-logo-small.jpg"}]
