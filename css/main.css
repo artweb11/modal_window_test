@@ -1,0 +1,209 @@
+/*main page styles*/
+html, body {
+	height: 100%;
+}
+* {
+	box-sizing: border-box;
+}
+
+.content {
+	position: relative;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 20px;
+	background: #f3f3f3;
+}
+
+.content h1 {
+	font-size: 24px;
+	line-height: 30px;
+	color: #000;
+}
+
+.content a {
+	padding: 20px;
+	border: solid 1px #e0e0e0;
+	background: #fff;
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+	display: inline-block;
+	text-decoration: none;
+	
+}
+
+/*modal global style*/
+.modal *:focus {
+	 outline: none;
+}
+.modal {
+	position: fixed;
+	max-width: 960px;
+	width: 100%;
+	left: 50%;
+	z-index: 99999;
+	height: auto;
+
+	font-family: Arial;
+}
+.modal .modal-content {
+	position: relative;
+	padding: 10px;
+	background: #fff;
+	/*border-radius: 10px;*/
+	border: solid 1px #e0e0e0;
+	z-index: 2;
+}
+.modal:after {
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom:0;
+	right:0;
+	background: rgba(0,0,0,0.4);
+	z-index: 1;
+}
+.modal .header {
+	position: relative;
+}
+.modal-title {
+	line-height: 30px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000;
+}
+.modal-subtitle {
+	line-height: 28px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #444;	
+}
+.modal-categ {
+	line-height: 24px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #777;	
+}
+.modal .section {
+	padding: 5px 10px;
+	margin-bottom: 10px;
+	background: #f3f3f3;
+	/*border: solid 1px #f2f2f2;*/
+}
+.modal .input {
+	position: relative;
+	width: 100%;
+	display: inline-block;
+	
+}
+.modal .input .input-component {
+	position: relative;	
+	padding: 5px 20px 5px 20px;
+	/*border-radius: 20px;*/
+	border: solid 1px #e0e0e0;
+	background: #fff;
+	margin-bottom: 10px;
+	width: 100%;
+}
+.modal .input-component label {
+	display: inline-block;
+	width: 100%;
+	max-width: 22%;
+	border-right: solid 1px #e0e0e0;
+}
+.modal .input-component input, .modal .input-component select {
+	display: inline-block;
+	width: 100%;
+	max-width: 76%;
+	background: transparent;
+	border: solid 0px #fff;
+	padding: 5px;
+}
+.modal .input-component textarea {
+	display: inline-block;
+	width: 100%;
+	max-width: 76%;
+	max-height: 100px;
+	background: transparent;
+	border: solid 0px #fff;
+	padding: 5px;
+}
+.modal .input-component input[type=checkbox]{
+	position: absolute;
+	left: 31.5%;
+	width: 20px;
+	height: 20px;
+	border: solid 1px #e0e0e0;
+	background: #fff;
+}
+
+.modal .col2 {
+	display: table;
+	/*border-spacing: 10px;*/
+	width: 100%;
+}
+.modal .col2 .input {
+	width: 50%;
+	display: table-cell;
+}
+.modal .col2 .input:first-child {
+	padding-right: 5px;
+}
+.modal .col2 .input:last-child {
+	padding-left:  5px;
+}
+
+.modal .col2 .input label {
+	max-width: 40%;
+}
+.modal .col2 .input-component input, .modal .col2 .input-component select, .modal .col2 .input-component textarea {
+	max-width: 58%;
+}
+.modal .input .make-component {
+	width: 70%;
+}
+.modal .footer {
+	position: relative;
+	display: table;
+	width: 100%;
+}
+.modal .footer .errors {
+	display: table-cell;
+	width: 70%;
+}
+.modal .footer .buttons {
+	padding-top: 20px;
+	display: table-cell;
+	text-align: right;
+}
+.modal .btn {
+	display: inline-block;
+	padding: 8px 20px 8px 20px;
+	border: solid 0px #000;
+	background: #e0e0e0;
+	width: auto;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.modal input.btn {
+	border: solid 0px #000;
+	font-size: 14px;
+	font-weight: bold;
+}
+.modal .submit {
+	background: #80e880;
+}
+.modal input[disabled] {
+	border: solid 0px #e0e0e0;
+	background: #e9e9e9;
+	color: #888;
+}
+
+.modal .input .input-component.error {
+	background: #ffe0e0;
+	border-color: #ff6868;
+}

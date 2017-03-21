@@ -11,9 +11,142 @@
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-        
+        <div class="content">
+        	<h1>Site name</h1>
+			<br>
+			<br>
+			<br>
+			<a href="javascript:void(0);" id="modal_open">Open modal</a>
+        </div>
 
-        
+        <div class="modal" id="modal01">
+        	<div class="modal-content">
+        		<form action="" method="post" enctype="application/www-urlencoded">
+	        		<div class="header">
+		        		<div class="modal-title">Add Product</div>
+		        		<div class="modal-subtitle">Second-hand Car</div>
+		        		<div class="modal-categ">Automobiles</div>
+		        	</div>
+	        	
+	        		<div class="section">
+	        			<div class="input">
+	        				<!-- <div class="error"></div> -->
+	        				<div class="input-component valid-required">
+	        					<label for="input-title-announcement">Title of announcement</label>
+	        					<input type="text" name="input_title_announcement" id="input-title-announcement">
+	        				</div>
+	        			</div>
+
+	        			<div class="input">
+	        				<!-- <div class="error"></div> -->
+	        				<div class="input-component make-component valid-required">
+	        					<label for="input-make-brand">Make/Brand</label>
+	        					<select name="input_make_brand" id="input-make-brand">
+	        						
+	        					</select>
+	        				</div>
+	        			</div>
+						
+						<div class="col2">
+							<div class="input">
+		        				<!-- <div class="error"></div> -->
+		        				<div class="input-component valid-required valid-year">
+		        					<label for="input-mf-year">Manufacturing year</label>
+		        					<input type="text" name="input_mf_year" id="input-mf-year">
+		        				</div>
+		        			</div>
+
+		        			<div class="input">
+		        				<!-- <div class="error"></div> -->
+		        				<div class="input-component valid-number">
+		        					<label for="input-mileage">Mileage</label>
+		        					<input type="text" name="input_mileage" id="input-mileage">
+		        				</div>
+		        			</div>
+						</div>
+						<div class="col2">
+							<div class="input">
+		        				<!-- <div class="error"></div> -->
+		        				<div class="input-component error valid-required">
+		        					<label for="input-fuel-type">Fuel type</label>
+		        					<select name="input_fuel_type" id="input-fuel-type">
+		        						<option value="">Select</option>
+		        						<option value="1">Gas</option>
+		        						<option value="2">Diesel</option>
+		        						<option value="3">GPL</option>
+		        						<option value="4">Electric</option>
+		        					</select>
+		        				</div>
+		        			</div>
+
+		        			<div class="input">
+		        				<!-- <div class="error"></div> -->
+		        				<div class="input-component color-chooser valid-required">
+		        					<label for="input-color">Color</label>
+		        					<select name="input_color" id="input-color">
+		        						
+		        					</select>
+		        					<div class="color-visual"></div>
+		        				</div>
+		        			</div>
+						</div>
+	        		</div>
+
+	        		<div class="section">
+	        			<div class="input">
+	        				<!-- <div class="error"></div> -->
+	        				<div class="input-component">
+	        					<label for="input-damaged">Vehicle damaged</label>
+	        					<input type="checkbox" name="input_damaged" id="input-damaged">
+	        				</div>
+	        			</div>
+						<div class="input hidden">
+	        				<!-- <div class="error"></div> -->
+	        				<div class="input-component error">
+	        					<label for="input-damaged-details">Details</label>
+	        					<textarea name="input_damaged_details" id="input-damaged-details" cols="20" rows="10"></textarea>
+	        				</div>
+	        			</div>
+
+	        			<div class="input">
+	        				<!-- <div class="error"></div> -->
+	        				<div class="input-component valid-number">
+	        					<label for="input-price">Price</label>
+	        					<input type="text" name="input_price" id="input-price">
+	        				</div>
+	        			</div>
+	        			<div class="input">
+	        				<!-- <div class="error"></div> -->
+	        				<div class="input-component valid-required">
+	        					<label for="input-currency">Currency</label>
+	        					<select name="input_currency" id="input-currency">
+	        						<option value="1">RON</option>
+	        						<option value="2">EURO</option>
+	        						<option value="3">DOLLARS</option>
+	        					</select>
+	        				</div>
+	        			</div>
+						
+						<div class="input">
+	        				<!-- <div class="error"></div> -->
+	        				<div class="input-component">
+	        					<label for="input-description">Description</label>
+	        					<textarea name="input_description" id="input-description" cols="20" rows="10"></textarea>
+	        				</div>
+	        			</div>
+	        		</div>
+	        		<div class="footer">
+	        			<div class="errors"></div>
+	        			<div class="buttons">
+	        				<div class="btn cancel" id="cancel-btn">Cancel</div>
+	        				<input class="btn submit" disabled type="submit" value="Send">
+	        			</div>
+	        		</div>
+	        	</form>
+        	</div>
+        </div>
+
+		<script src="brands.json"></script>
         <script src="js/modal_window.js"></script>
     </body>
 </html>
