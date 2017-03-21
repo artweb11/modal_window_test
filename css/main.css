@@ -106,6 +106,9 @@ html, body {
 	display: inline-block;
 	margin-top: 10px;
 }
+.modal .input.hidden {
+	display: none;
+}
 .modal .input .input-component {
 	position: relative;	
 	padding: 5px 10px 5px 10px;

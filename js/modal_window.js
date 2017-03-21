@@ -69,6 +69,7 @@
 					FormControl.loaded = true;
 				});
 			});
+			FormControl.addDetailFunction();
 			FormControl.add_events();
 		},
 
@@ -97,6 +98,15 @@
 					$('color-visual').style.backgroundColor = FormControl.colors[this.value].hexValue;
 				} else {
 					$('color-visual').style.backgroundColor = 'transparent';	
+				}
+			},false );
+		},
+		addDetailFunction: function(){
+			$('input-damaged').addEventListener('change', function(){
+				if( this.checked ){
+					$('input-damaged-details').parentNode.parentNode.classList.remove('hidden');
+				} else {
+					$('input-damaged-details').parentNode.parentNode.classList.add('hidden');
 				}
 			},false );
 		},
